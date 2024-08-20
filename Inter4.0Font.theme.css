@@ -1,0 +1,36 @@
+/**
+ * @name Inter 4.0 Font Theme
+ * @author Ayoub Abedrabbo
+ * @description Replaces discord's font with an easier to read font: Inter 4.0.
+ * @version 0.0.1
+ * @authorId ayoubab1
+ * @authorLink https://betterdiscord.app/developer/ayoubab1
+ * @donate https://ko-fi.com/ayoubab1
+ * @patreon http://patreon.com/AyoubAbedrabbo
+ * @website https://linktr.ee/ayoubabedrabbo
+ * @source https://github.com/Today20092/DiscordAtkinsonHyperlegible
+ */
+
+/* Import Inter font */
+@import url("https://rsms.me/inter/inter.css");
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings:
+    "liga" 1,
+    "calt" 1; /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
+/* Apply font to all elements */
+* {
+  font-family: Inter !important; /* Force the custom font */
+  font-feature-settings:
+    "liga" 1,
+    "calt" 1; /* fix for Chrome */
+}
