@@ -10,7 +10,7 @@ Changes the default theme of discord to use the [Inter 4.0 Font](https://rsms.me
 
 Copy and place link below on a single line under "Online Themes"
 
-Vencord: ```https://raw.githubusercontent.com/Today20092/DiscordAtkinsonHyperlegible/main/HyperLegibleFont.theme.css```
+Vencord: ```https://raw.githubusercontent.com/Today20092/Discord-Inter-Font/master/Inter4.0Font.theme.css```
 
 Or
 
