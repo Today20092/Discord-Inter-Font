@@ -11,31 +11,19 @@
  * @source https://github.com/Today20092/Discord-Inter-Font
  */
 
-/* Import Inter font */
-@import url("https://rsms.me/inter/inter.css");
+ @import url(https://fonts.bunny.net/css?family=inter:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
 
-:root {
-  --font: "Inter", sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
-  :root {
-    --font: "InterVariable", sans-serif;
-  }
-}
-
-/* Apply font to all elements */
-* {
-  font-family: var(--font) !important; /* Force the custom font */
-  font-feature-settings:
-    "liga" 1,
-    "calt" 1; /* fix for Chrome */
-}
-
-/* Ensure placeholder text uses the font */
-::placeholder {
-  font-family: var(--font);
-  font-feature-settings:
-    "liga" 1,
-    "calt" 1; /* fix for Chrome */
-}
+ :root {
+   --font: "Inter", sans-serif;
+ }
+ 
+ /* Apply font to all elements */
+ * {
+   font-family: var(--font) !important; /* Force the custom font */
+ }
+ 
+ /* Ensure placeholder text uses the font */
+ ::placeholder {
+   font-family: var(--font);
+ }
+ 
